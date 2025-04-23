@@ -1,0 +1,65 @@
+/* Basic reset and styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #1a237e;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #3949ab;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #5c6bc0;
+  border-radius: 4px;
+}
+
+main {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #1a237e;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #1a237e;
+  color: white;
+}
